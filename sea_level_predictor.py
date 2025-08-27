@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import linregress
 
 def draw_plot():
-    # Read data from file
+    # upload file
     df=pd.read_csv ("epa-sea-level.csv")
 
 
@@ -46,7 +46,7 @@ def draw_plot():
     label="Data since 2000", color="orange")
 
 
-    # Add labels and title
+    # labels and title
     plt.xlabel("Year")
     plt.ylabel("Sea Level (inches)")
     plt.title("Rise in Sea Level")
